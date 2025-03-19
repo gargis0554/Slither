@@ -1,7 +1,7 @@
-//slither Over_underflow.sol
+#slither Over_underflow.sol
 solidity version 0.8 has ability to protect itself from underflow and overflow problem
 
-//slither Integer.sol --print data-dependency
+#slither Integer.sol --print data-dependency
 
 INFO:Printers:
 Contract IntegerOverflow
