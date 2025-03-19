@@ -1,0 +1,13 @@
+strict digraph {
+rankdir="LR"
+node [shape=box]
+subgraph cluster_58_Reentrancy {
+label = "Reentrancy"
+"58_deposit" [label="deposit"]
+"58_withdraw" [label="withdraw"]
+}subgraph cluster_solidity {
+label = "[Solidity]"
+"require(bool,string)" 
+"58_withdraw" -> "require(bool,string)"
+}
+}
